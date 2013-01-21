@@ -914,7 +914,8 @@ li {
 	text-transform: uppercase;
 	margin-right: 5px;
 	margin-bottom: 5px;
-	float: left;
+	float: right;
+	text-align:right;
 }
 .servicesStatistics p{
 	float: left;
