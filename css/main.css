@@ -1053,12 +1053,13 @@ li {
 	background:url(../img/mapPointer.png) no-repeat 0px 2px transparent;
 }
 #adress div {
-	margin-left: 45px;
+	margin-left: 35px;
+	margin-top:10px;
 	position: absolute;
 	background: #ffffff;
 	border-radius: 0 4px 4px 0;
-	width: 192px;
-	height:50px;
+	width: 132px;
+	height:31px;
 	padding: 5px 3px;
 	-webkit-box-shadow: 2px 2px 2px 3px rgba(10, 10, 10, 0.1);
     box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.1);
@@ -1076,9 +1077,9 @@ li {
 #adress div:after {
 	border-color: rgba(255, 255, 255, 0);
 	border-right-color: #ffffff;
-	border-width: 25px;
+	border-width: 15px;
 	top: 50%;
-	margin-top: -25px;
+	margin-top: -15px;
 	margin-right:1px;
 }
 #adress h3 {
@@ -2328,12 +2329,13 @@ a.top {
 	background:url(../img/mapPointer.png) no-repeat 0px 2px transparent;
 }
 #adress1 div {
-	margin-left: 45px;
+	margin-left: 35px;
+	margin-top:10px;
 	position: absolute;
 	background: #ffffff;
 	border-radius: 0 4px 4px 0;
-	width: 175px;
-	height:50px;
+	width: 132px;
+	height:31px;
 	padding: 5px 3px;
 	-webkit-box-shadow: 2px 2px 2px 3px rgba(10, 10, 10, 0.1);
     box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.1);
@@ -2351,9 +2353,9 @@ a.top {
 #adress1 div:after {
 	border-color: rgba(255, 255, 255, 0);
 	border-right-color: #ffffff;
-	border-width: 25px;
+	border-width: 15px;
 	top: 50%;
-	margin-top: -25px;
+	margin-top: -15px;
 	margin-right:1px;
 }
 #adress1 h3 {
@@ -2363,6 +2365,63 @@ a.top {
 	font-weight: 600;
 }
 #adress1 > div span {
+	text-transform: uppercase;
+	font-weight: 800;
+	float: left;
+}
+
+
+#adress2 {
+	position: absolute;
+	margin-top: 72px;
+	margin-left: 92px;
+}
+#adress2 > span {
+	margin-top: 10px;
+	position: absolute;
+	width: 18px;
+	height: 24px;
+	margin-right: 10px;
+	text-indent: -999999px;
+	background:url(../img/mapPointer.png) no-repeat 0px 2px transparent;
+}
+#adress2 div {
+	margin-left: 35px;
+	margin-top:10px;
+	position: absolute;
+	background: #ffffff;
+	border-radius: 0 4px 4px 0;
+	width: 132px;
+	height:31px;
+	padding: 5px 3px;
+	-webkit-box-shadow: 2px 2px 2px 3px rgba(10, 10, 10, 0.1);
+    box-shadow: 2px 2px 2px 2px rgba(10, 10, 10, 0.1);
+    -moz-box-sizing:border-box;
+    -box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+#adress2 div:after, #adress2 div:before {
+	right: 99%;
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+	pointer-events: none;
+}
+#adress2 div:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #ffffff;
+	border-width: 15px;
+	top: 50%;
+	margin-top: -15px;
+	margin-right:1px;
+}
+#adress2 h3 {
+	font-size: 13px;
+	color: #191923;
+	font-family: 'Open Sans';
+	font-weight: 600;
+}
+#adress2 > div span {
 	text-transform: uppercase;
 	font-weight: 800;
 	float: left;
